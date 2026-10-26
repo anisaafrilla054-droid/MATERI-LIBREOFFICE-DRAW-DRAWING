@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modifikasi Bagian: Draw Drawing | Materi LibreOffice Draw</title>
+<style>
+:root{--navy:#17243b;--blue:#2563eb;--cyan:#0ea5a4;--ink:#243247;--muted:#64748b;--bg:#f4f7fb;--line:#e2e8f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+header{background:linear-gradient(125deg,#17243b,#2456a6);color:white;padding:52px 20px 46px} .wrap{max-width:1050px;margin:auto;padding:0 20px}
+.kicker{font-size:.82rem;letter-spacing:.13em;text-transform:uppercase;color:#b9d7ff;font-weight:700}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;margin:12px 0}header p{max-width:760px;color:#e1ebff;font-size:1.08rem}
+.pill{display:inline-block;border:1px solid #ffffff55;border-radius:30px;padding:5px 12px;font-size:.82rem;margin:5px 5px 0 0}
+.layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:26px;align-items:start;margin:30px auto}
+nav{position:sticky;top:18px;background:white;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 5px 20px #17243b0a}
+nav strong{display:block;margin-bottom:10px;color:var(--navy)}nav a{display:block;color:#475569;text-decoration:none;padding:6px 8px;border-radius:7px;font-size:.92rem}nav a:hover{background:#eff6ff;color:var(--blue)}
+main{min-width:0}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:25px;margin-bottom:20px;box-shadow:0 5px 20px #17243b08}
+h2{font-size:1.55rem;color:var(--navy);margin:0 0 13px;line-height:1.3}h3{font-size:1.12rem;color:#1e4d8c;margin:20px 0 7px}p{margin:9px 0}ul,ol{padding-left:23px}li{margin:5px 0}
+.callout{border-left:4px solid var(--cyan);background:#ecfeff;padding:13px 16px;border-radius:7px;margin:15px 0}
+.note{border-left:4px solid #e5a000;background:#fffbeb;padding:13px 16px;border-radius:7px;margin:15px 0}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.94rem}th,td{border:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:#eff6ff;color:#1e3a8a}
+.step{display:flex;gap:13px;margin:16px 0}.num{flex:0 0 34px;height:34px;border-radius:50%;background:#dbeafe;color:#1d4ed8;font-weight:800;display:grid;place-items:center}
+kbd{background:#eef2f7;border:1px solid #cbd5e1;border-radius:5px;padding:2px 6px;font-size:.88em}
+footer{background:var(--navy);color:#dbeafe;text-align:center;padding:28px 16px;margin-top:35px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}nav{position:static}nav div{display:grid;grid-template-columns:1fr 1fr;gap:2px}.card{padding:20px}}
+@media(max-width:480px){nav div{grid-template-columns:1fr}.card{padding:17px}table{font-size:.85rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="kicker">Materi pembelajaran · LibreOffice Draw</div>
+<h1>Modifikasi Bagian: Draw Drawing</h1>
+<p>Panduan lengkap untuk memahami dan memodifikasi objek gambar di LibreOffice Draw, mulai dari memilih objek, mengubah ukuran dan warna, mengatur posisi, hingga menyimpan hasil pekerjaan.</p>
+<span class="pill">Materi lengkap</span><span class="pill">Panduan langkah demi langkah</span><span class="pill">Untuk pemula</span>
+</div></header>
+<div class="wrap layout">
+<nav><strong>Daftar Isi</strong><div>
+<a href="#pengertian">1. Pengertian</a><a href="#tujuan">2. Tujuan dan manfaat</a><a href="#antarmuka">3. Mengenal area kerja</a><a href="#objek">4. Jenis objek</a><a href="#memilih">5. Memilih objek</a><a href="#modifikasi">6. Teknik modifikasi</a><a href="#teks">7. Modifikasi teks</a><a href="#susunan">8. Susunan dan pengelompokan</a><a href="#langkah">9. Praktik langkah demi langkah</a><a href="#simpan">10. Menyimpan dan ekspor</a><a href="#tips">11. Tips dan masalah umum</a><a href="#latihan">12. Latihan</a><a href="#kesimpulan">13. Kesimpulan</a>
+</div></nav>
+<main>
+<section class="card" id="pengertian"><h2>1. Pengertian Draw Drawing dan Modifikasi Gambar</h2>
+<p><b>LibreOffice Draw</b> adalah aplikasi pengolah gambar berbasis vektor yang merupakan bagian dari paket LibreOffice. Aplikasi ini digunakan untuk membuat diagram, bagan, poster sederhana, ilustrasi, denah, bentuk geometri, dan berbagai gambar teknis.</p>
+<p>Istilah <b>modifikasi drawing</b> berarti kegiatan mengubah atau menyempurnakan objek gambar yang sudah dibuat. Perubahan dapat dilakukan pada bentuk, ukuran, warna, garis tepi, posisi, arah, susunan, maupun teks yang terdapat di dalam gambar.</p>
+<div class="callout"><b>Inti materi:</b> modifikasi bukan hanya membuat gambar baru, tetapi mengedit objek yang sudah ada agar tampilannya lebih tepat, jelas, menarik, dan mudah dipahami.</div>
+</section>
+<section class="card" id="tujuan"><h2>2. Tujuan dan Manfaat Modifikasi Drawing</h2>
+<ul><li><b>Memperbaiki tampilan:</b> membuat objek lebih rapi dan proporsional.</li><li><b>Memperjelas informasi:</b> menggunakan warna, garis, dan teks yang mudah dibaca.</li><li><b>Menyesuaikan kebutuhan:</b> mengubah ukuran atau bentuk sesuai rancangan.</li><li><b>Mengatur komposisi:</b> menempatkan objek agar seimbang dan tidak saling menutupi.</li><li><b>Menghemat waktu:</b> mengedit objek yang tersedia tanpa menggambar ulang dari awal.</li><li><b>Meningkatkan kualitas:</b> menghasilkan diagram atau ilustrasi yang siap dibagikan maupun dicetak.</li></ul>
+</section>
+<section class="card" id="antarmuka"><h2>3. Mengenal Area Kerja LibreOffice Draw</h2>
+<p>Sebelum mengedit, kenali bagian-bagian utama jendela aplikasi berikut.</p>
+<table><thead><tr><th>Bagian</th><th>Fungsi</th></tr></thead><tbody>
+<tr><td>Menu Bar</td><td>Berisi menu File, Edit, View, Insert, Format, Shape, dan menu lainnya.</td></tr>
+<tr><td>Toolbar</td><td>Berisi tombol cepat seperti simpan, undo, redo, pilih, dan pengaturan objek.</td></tr>
+<tr><td>Drawing Toolbar</td><td>Berisi alat untuk membuat garis, persegi, lingkaran, panah, teks, dan bentuk lainnya.</td></tr>
+<tr><td>Area kerja / halaman</td><td>Tempat membuat dan menyusun objek gambar.</td></tr>
+<tr><td>Sidebar / Properties</td><td>Tempat mengatur properti objek, misalnya posisi, ukuran, warna, garis, dan efek.</td></tr>
+<tr><td>Panel halaman</td><td>Menampilkan halaman atau slide gambar yang sedang dikerjakan.</td></tr>
+<tr><td>Status Bar</td><td>Menampilkan informasi dokumen, halaman, dan tingkat pembesaran.</td></tr>
+</tbody></table>
+</section>
+<section class="card" id="objek"><h2>4. Jenis-Jenis Objek yang Dapat Dimodifikasi</h2>
+<ul><li><b>Bentuk geometri:</b> persegi, persegi panjang, lingkaran, elips, segitiga, dan poligon.</li><li><b>Garis dan konektor:</b> garis lurus, garis lengkung, panah, serta penghubung antarbagian diagram.</li><li><b>Kurva dan bentuk bebas:</b> objek yang dibuat dengan menggambar jalur atau titik-titik tertentu.</li><li><b>Teks:</b> judul, keterangan, label, dan tulisan di dalam bentuk.</li><li><b>Gambar:</b> foto atau ilustrasi yang dimasukkan ke halaman.</li><li><b>Diagram dan simbol:</b> flowchart, simbol proses, keputusan, dan tanda lainnya.</li></ul>
+</section>
+<section class="card" id="memilih"><h2>5. Cara Memilih Objek Sebelum Dimodifikasi</h2>
+<p>Objek harus dipilih terlebih dahulu agar perubahan diterapkan pada objek yang benar.</p>
+<div class="step"><span class="num">1</span><div><b>Aktifkan alat Select.</b><br>Pilih ikon panah atau alat seleksi pada toolbar.</div></div>
+<div class="step"><span class="num">2</span><div><b>Klik objek.</b><br>Klik satu kali pada bentuk yang ingin diedit. Pegangan kecil di sekeliling objek menandakan objek telah terpilih.</div></div>
+<div class="step"><span class="num">3</span><div><b>Pilih beberapa objek jika diperlukan.</b><br>Tahan tombol <kbd>Shift</kbd> sambil mengeklik objek lain, atau seret area seleksi yang mencakup objek-objek tersebut.</div></div>
+<div class="step"><span class="num">4</span><div><b>Pastikan pilihan sudah benar.</b><br>Periksa apakah objek yang terpilih sesuai dengan bagian yang ingin dimodifikasi.</div></div>
+<div class="note">Jika objek sulit dipilih, periksa apakah objek berada di belakang objek lain atau terkunci. Gunakan pengaturan susunan atau buka kunci objek jika tersedia.</div>
+</section>
+<section class="card" id="modifikasi"><h2>6. Teknik-Teknik Modifikasi Objek Gambar</h2>
+<h3>A. Mengubah ukuran (Resize)</h3><p>Pilih objek, kemudian tarik pegangan di sudut atau sisi objek. Pegangan sudut umumnya digunakan untuk mengubah lebar dan tinggi secara bersamaan. Untuk menjaga proporsi, gunakan pengaturan rasio atau tombol pengunci proporsi pada panel Properties jika tersedia.</p>
+<h3>B. Memindahkan posisi</h3><p>Arahkan kursor ke bagian dalam objek yang terpilih, lalu tekan dan seret ke lokasi baru. Gunakan tombol panah pada keyboard untuk menggeser objek sedikit demi sedikit apabila fitur tersebut tersedia.</p>
+<h3>C. Mengubah warna isi (Fill)</h3><p>Pilih objek, buka bagian Area atau Fill pada Properties, kemudian pilih warna yang diinginkan. Warna isi dapat berupa warna tunggal, gradasi, pola, atau gambar sesuai fitur yang tersedia.</p>
+<h3>D. Mengubah garis tepi (Line)</h3><p>Pilih objek dan buka pengaturan Line. Atur warna garis, ketebalan, gaya garis (utuh, putus-putus), serta bentuk ujung garis. Garis tepi yang cukup kontras membantu membedakan objek dari latar belakang.</p>
+<h3>E. Memutar objek (Rotate)</h3><p>Pilih objek, aktifkan mode Rotate melalui toolbar atau menu yang tersedia. Tarik pegangan rotasi untuk memutar objek. Untuk sudut yang presisi, masukkan nilai sudut pada panel pengaturan jika tersedia.</p>
+<h3>F. Membalik objek (Flip)</h3><p>Gunakan perintah Flip Horizontal untuk membalik objek dari kiri ke kanan atau Flip Vertical untuk membalik dari atas ke bawah. Periksa kembali arah teks dan simbol setelah dibalik.</p>
+<h3>G. Mengubah bentuk (Edit Points)</h3><p>Pada objek yang mendukung pengeditan titik, gunakan perintah Edit Points untuk menggeser titik sudut atau mengubah lengkungan. Teknik ini berguna untuk membuat bentuk yang lebih khusus daripada bentuk standar.</p>
+<h3>H. Menggandakan objek</h3><p>Pilih objek lalu gunakan <kbd>Ctrl</kbd> + <kbd>C</kbd> untuk menyalin dan <kbd>Ctrl</kbd> + <kbd>V</kbd> untuk menempel. Cara ini berguna ketika beberapa bentuk harus memiliki ukuran dan tampilan serupa.</p>
+</section>
+<section class="card" id="teks"><h2>7. Modifikasi Teks pada Drawing</h2>
+<p>Teks berfungsi memberi nama, judul, atau keterangan pada gambar. Untuk mengubah teks di dalam bentuk, klik dua kali objek atau masuk ke mode pengeditan teks, kemudian pilih tulisan yang akan diganti.</p>
+<ul><li><b>Jenis huruf:</b> pilih font yang mudah dibaca.</li><li><b>Ukuran huruf:</b> sesuaikan dengan ukuran objek dan jarak baca.</li><li><b>Warna huruf:</b> gunakan warna yang kontras dengan latar belakang.</li><li><b>Perataan:</b> atur rata kiri, tengah, atau kanan sesuai kebutuhan.</li><li><b>Penempatan:</b> pastikan teks tidak keluar dari bentuk dan tidak bertumpuk.</li></ul>
+<div class="callout">Gunakan maksimal beberapa jenis huruf dalam satu desain. Judul sebaiknya lebih menonjol daripada isi atau keterangan.</div>
+</section>
+<section class="card" id="susunan"><h2>8. Mengatur Susunan, Perataan, dan Pengelompokan</h2>
+<h3>Urutan objek (Arrange)</h3><p>Jika beberapa objek saling menutupi, atur urutannya menggunakan Bring to Front untuk membawa objek ke depan atau Send to Back untuk memindahkannya ke belakang. Perintah sejenis dapat memiliki nama berbeda bergantung versi aplikasi.</p>
+<h3>Perataan (Align)</h3><p>Fitur Align membantu merapikan posisi beberapa objek, misalnya rata kiri, rata kanan, rata atas, rata bawah, atau rata tengah. Pilih objek-objek yang akan disejajarkan sebelum menggunakan perintah tersebut.</p>
+<h3>Pengelompokan (Group)</h3><p>Pilih beberapa objek yang saling berhubungan, kemudian gunakan <kbd>Ctrl</kbd> + <kbd>G</kbd> untuk mengelompokkannya. Setelah menjadi satu grup, objek dapat dipindahkan atau diubah ukurannya bersama-sama. Untuk memisahkan kembali, gunakan Ungroup atau <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> sesuai versi dan konfigurasi aplikasi.</p>
+<h3>Mengunci dan membuka kunci</h3><p>Jika fitur penguncian tersedia, kunci objek yang sudah selesai agar tidak berubah secara tidak sengaja saat mengedit bagian lain.</p>
+</section>
+<section class="card" id="langkah"><h2>9. Praktik Modifikasi Drawing Langkah demi Langkah</h2>
+<p>Contoh latihan: membuat diagram alur sederhana yang terdiri dari judul, tiga kotak proses, panah penghubung, dan keterangan.</p>
+<div class="step"><span class="num">1</span><div><b>Buka LibreOffice Draw.</b><br>Jalankan aplikasi dan buat dokumen gambar baru melalui File → New → Drawing.</div></div>
+<div class="step"><span class="num">2</span><div><b>Buat bentuk dasar.</b><br>Pilih Rectangle pada Drawing Toolbar, lalu gambar tiga kotak di halaman kerja.</div></div>
+<div class="step"><span class="num">3</span><div><b>Tambahkan teks.</b><br>Masukkan tulisan seperti “Mulai”, “Proses”, dan “Selesai” ke dalam masing-masing kotak.</div></div>
+<div class="step"><span class="num">4</span><div><b>Ubah warna dan garis.</b><br>Pilih kotak satu per satu, atur Fill dan Line agar tampilannya konsisten serta mudah dibaca.</div></div>
+<div class="step"><span class="num">5</span><div><b>Tambahkan panah penghubung.</b><br>Gunakan Line atau Connector untuk menghubungkan kotak sesuai urutan proses.</div></div>
+<div class="step"><span class="num">6</span><div><b>Rapikan posisi.</b><br>Gunakan Align dan pengaturan jarak agar kotak sejajar dan panah tidak bertumpuk dengan teks.</div></div>
+<div class="step"><span class="num">7</span><div><b>Periksa dan kelompokkan.</b><br>Pastikan seluruh teks terbaca, warna serasi, dan semua objek berada di posisi yang benar. Kelompokkan bagian yang memang perlu dipindahkan bersama.</div></div>
+<div class="step"><span class="num">8</span><div><b>Simpan hasil.</b><br>Simpan dokumen dalam format ODG agar dapat diedit kembali. Ekspor salinan PDF atau gambar jika akan dibagikan.</div></div>
+</section>
+<section class="card" id="simpan"><h2>10. Menyimpan dan Mengekspor Hasil</h2>
+<table><thead><tr><th>Format</th><th>Kegunaan</th></tr></thead><tbody>
+<tr><td>ODG</td><td>Format asli LibreOffice Draw; objek tetap dapat diedit.</td></tr>
+<tr><td>PDF</td><td>Cocok untuk dibaca, dicetak, dan dibagikan dengan tata letak yang relatif tetap.</td></tr>
+<tr><td>PNG</td><td>Format gambar yang mendukung latar transparan dan cocok untuk ilustrasi digital.</td></tr>
+<tr><td>JPG/JPEG</td><td>Format gambar yang umum digunakan untuk foto atau pratinjau.</td></tr>
+</tbody></table>
+<p>Untuk menyimpan dokumen, pilih File → Save atau tekan <kbd>Ctrl</kbd> + <kbd>S</kbd>. Saat pertama kali menyimpan, tentukan nama dan lokasi file, kemudian pilih format ODG. Untuk format lain, gunakan File → Export atau Export as PDF, lalu ikuti pilihan yang ditampilkan.</p>
+<div class="note">Simpan salinan ODG sebelum mengekspor ke PDF atau gambar. Format ekspor biasanya lebih sulit untuk diedit kembali sebagai objek terpisah.</div>
+</section>
+<section class="card" id="tips"><h2>11. Tips dan Masalah yang Sering Terjadi</h2>
+<table><thead><tr><th>Masalah</th><th>Solusi</th></tr></thead><tbody>
+<tr><td>Objek tidak bisa dipilih</td><td>Periksa apakah objek terkunci atau tertutup objek lain; gunakan panel pemilihan jika tersedia.</td></tr>
+<tr><td>Ukuran berubah tidak seimbang</td><td>Tarik pegangan sudut dan aktifkan pengunci rasio/proposi bila tersedia.</td></tr>
+<tr><td>Warna tidak terlihat jelas</td><td>Pilih kombinasi warna isi dan garis yang memiliki kontras cukup.</td></tr>
+<tr><td>Teks keluar dari bentuk</td><td>Perbesar objek, kecilkan ukuran huruf, atau atur perataan dan jarak teks.</td></tr>
+<tr><td>Objek tertutup objek lain</td><td>Gunakan Bring to Front atau Send to Back untuk mengatur urutannya.</td></tr>
+<tr><td>Hasil tidak dapat diedit setelah dibagikan</td><td>Kirim juga file sumber ODG, bukan hanya PDF atau gambar.</td></tr>
+<tr><td>Perubahan keliru</td><td>Gunakan Undo atau <kbd>Ctrl</kbd> + <kbd>Z</kbd>, kemudian ulangi langkah dengan benar.</td></tr>
+</tbody></table>
+<ul><li>Biasakan menyimpan pekerjaan secara berkala.</li><li>Gunakan ukuran dan warna yang konsisten.</li><li>Jangan memenuhi halaman dengan terlalu banyak objek.</li><li>Periksa hasil pada tampilan normal sebelum dicetak atau dibagikan.</li></ul>
+</section>
+<section class="card" id="latihan"><h2>12. Latihan dan Evaluasi</h2>
+<p>Bagian ini membantu menguji pemahaman tentang modifikasi objek di LibreOffice Draw melalui pertanyaan singkat dan praktik langsung.</p>
+
+<h3>A. Tujuan</h3>
+<ul>
+<li>Memahami fungsi modifikasi objek gambar.</li>
+<li>Mengubah ukuran, warna, bentuk, garis, dan posisi objek.</li>
+<li>Mengatur urutan, memutar, serta mengelompokkan objek.</li>
+<li>Menyimpan hasil pekerjaan dalam format ODG dan PDF.</li>
+</ul>
+
+<h3>B. Pertanyaan dan Jawaban Singkat</h3>
+<ol>
+<li><b>Apa itu modifikasi drawing?</b><br>Proses mengubah atau menyempurnakan objek gambar, seperti ukuran, bentuk, warna, garis, posisi, dan teks.</li>
+<li><b>Bagaimana mengubah warna objek?</b><br>Pilih objek, lalu atur warna isi melalui Area/Fill dan warna garis melalui pengaturan Line.</li>
+<li><b>Apa fungsi Bring to Front dan Send to Back?</b><br>Bring to Front menempatkan objek di depan, sedangkan Send to Back menempatkannya di belakang objek lain.</li>
+<li><b>Apa fungsi Group?</b><br>Mengelompokkan beberapa objek agar dapat dipindahkan atau diatur bersama-sama.</li>
+<li><b>Apa perbedaan ODG dan PDF?</b><br>ODG merupakan format kerja yang dapat diedit kembali, sedangkan PDF cocok untuk dibaca, dicetak, dan dibagikan.</li>
+</ol>
+
+<h3>C. Praktik: Membuat Diagram Sederhana</h3>
+<p><b>Tugas:</b> Buat diagram alur “Proses Peminjaman Buku” yang terdiri dari Mulai, Pilih Buku, Isi Formulir, dan Selesai.</p>
+<ol>
+<li>Buka LibreOffice Draw dan buat dokumen baru.</li>
+<li>Buat bentuk oval untuk Mulai dan Selesai serta persegi panjang untuk Pilih Buku dan Isi Formulir.</li>
+<li>Tambahkan teks pada setiap bentuk.</li>
+<li>Ubah warna isi, warna garis, dan ukuran objek.</li>
+<li>Hubungkan bentuk menggunakan garis atau panah sesuai urutan proses.</li>
+<li>Rapikan posisi dan jarak antarobjek.</li>
+<li>Kelompokkan objek jika diagram sudah selesai.</li>
+<li>Simpan sebagai <b>Latihan_Modifikasi_Drawing.odg</b>, kemudian ekspor salinannya ke PDF.</li>
+</ol>
+<p><b>Urutan diagram:</b> Mulai → Pilih Buku → Isi Formulir → Selesai.</p>
+<h3>D. Kesimpulan</h3>
+<p>Modifikasi drawing merupakan keterampilan penting untuk membuat gambar dan diagram yang jelas serta menarik. Pengguna perlu mampu mengatur bentuk, ukuran, warna, garis, teks, dan posisi objek. Hasil pekerjaan sebaiknya disimpan dalam format ODG agar dapat diedit kembali dan PDF untuk dibagikan.</p>
+</section>
+<section class="card" id="kesimpulan"><h2>13. Kesimpulan</h2>
+<p>Modifikasi bagian Draw Drawing merupakan kegiatan mengedit dan menyempurnakan objek pada LibreOffice Draw. Prosesnya mencakup memilih objek, mengubah ukuran dan posisi, mengatur warna serta garis, memutar atau membalik bentuk, mengedit teks, menyusun urutan objek, meratakan, dan mengelompokkan objek.</p>
+<p>Dengan memahami teknik-teknik tersebut, pengguna dapat menghasilkan gambar, diagram, dan ilustrasi yang lebih rapi, informatif, serta sesuai kebutuhan. Ketelitian dalam mengatur objek dan kebiasaan menyimpan dokumen dalam format ODG akan membantu menjaga kualitas sekaligus memudahkan penyuntingan berikutnya.</p>
+</section>
+</main></div>
+<footer><div class="wrap"><b>Materi LibreOffice Draw — Modifikasi Bagian: Draw Drawing</b><br><small>Materi pembelajaran untuk memahami dan mempraktikkan pengeditan objek gambar.</small></div></footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll("nav a[href^='#']");
+  links.forEach(function (link) {
+    link.addEventListener("click", function () {
+      links.forEach(function (item) { item.removeAttribute("aria-current"); });
+      link.setAttribute("aria-current", "location");
+    });
+  });
+
+  // Tombol kembali ke atas dibuat otomatis agar tidak perlu file JavaScript terpisah.
+  const topButton = document.createElement("button");
+  topButton.type = "button";
+  topButton.textContent = "↑ Kembali ke atas";
+  topButton.setAttribute("aria-label", "Kembali ke atas halaman");
+  topButton.style.cssText =
+    "position:fixed;right:18px;bottom:18px;z-index:99;border:0;border-radius:24px;" +
+    "padding:11px 16px;background:#2563eb;color:#fff;font-weight:700;cursor:pointer;" +
+    "box-shadow:0 4px 14px #17243b33;display:none";
+  document.body.appendChild(topButton);
+
+  window.addEventListener("scroll", function () {
+    topButton.style.display = window.scrollY > 350 ? "block" : "none";
+  }, { passive: true });
+
+  topButton.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+</script>
+
+</body></html>
